@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/* Google Fonts用のCSSを読み込み
+------------------------------------------------------------*/
+@import 'https://fonts.googleapis.com/css?family=Abel';
+
+html
+{
+    font-size: 62.5%; /* ベースとなるフォントサイズの定義 */
+}
+
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif; /* フォントの種類 */
+    font-size: 1.4rem; /* フォントサイズ */
+    line-height: 1.6; /* 行間 */
+
+    letter-spacing: .1em;　/* 文字間隔 */
+
+    color: #4c4c4c; /* 文字色 */
+    background-color: #F9FFF2; /* 背景色 */
+}
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #FFFFDD; 
+  
+}
+  
+  *{
+    box-sizing:border-box;
+  }
+
+.text-align{
+  text-align:center;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+
+a {
+  color: #14c0c9;
+  text-decoration: none; }
+  
+    
+
+.title{
+  width:100%;
+  height:500px;
+  margin:0 auto;
+  margin-bottom:30px;
+  background-image:url(./images/mdnote3.jpg);
+  background-size:cover;
+}
+
+header h2{
+  font-size:5.0rem;
+  display:block;
+  padding:50px 0 15px 0;
+  color:dimgray;
+  letter-spacing:1.4rem;
+}
+
+header p{
+  font-size:2.5rem;
+  color:white;
+}
+
+
+
+
+.concept{
+  
+  max-width:1200px;
+  height:500px;
+  background-color:#FFFFDD;
+  margin:0 auto;
+  margin-bottom:100px;
+  display: -webkit-flex;
+  display:         flex;
+
+    justify-content: space-between;
+    flex-direction:row;
+  
+}
+
+.concept-box{
+  width:250px;
+  height:400px;
+  background-color:snow;
+  margin:50px auto;
+  padding:10px;
+  
+  -moz-border-radius:0 40px 0 15px;
+  -webkit-border-radius:0 40px 0 15px;
+  border-radius:0 40px 0 15px;
+  
+  
+}
+.about{
+  width:250px;
+  display:block;
+  margin:100px auto;
+  
+  border-bottom:solid 1px #4c4c4c;
+  letter-spacing:1.8rem;
+  font-size:2.5rem;
+  font-weight:bold;
+}
+
+
+.kodawari{
+  display:block;
+  margin:20px auto 30px;
+  font-size:1.8rem;
+  padding-bottom:15px;
+  border-bottom: solid 1px tan;
+}
+
+.contact{
+  width:250px;
+  letter-spacing:1.4rem;
+  display:block;
+  margin:50px auto 50px;
+  
+  font-size:2.5rem;
+  font-weight:bold;
+  border-bottom:solid 1px #4c4c4c;
+}
+
+.enter{
+  width:250px;
+  height:100px;
+  background-color:slategray;
+  margin:0 auto;
+  margin-bottom:100px;
+  display:table;
+  
+  -moz-border-radius:0 40px 0 15px;
+  -webkit-border-radius:0 40px 0 15px;
+  border-radius:0 40px 0 15px;
+  
+  -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+
+.enter  a{
+  vertical-align: middle;
+  display:table-cell;
+  font-size:2.5rem;
+  letter-spacing:1.4rem;
+  color:white;
+  
+  -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  
+}
+
+.enter:hover{
+  background-color:tan;
+  
+  -moz-border-radius:40px 0 15px 0;
+  -webkit-border-radius:40px 0 15px 0;
+  border-radius:40px 0 15px 0;
+  
+}
+.enter a:hover{
+  color:white;
+  letter-spacing:1.8rem;
+}
+
+
+footer{
+  width:100%;
+  padding:10px 0;
+  background-color:tan;
+  margin:0 auto;
+}
+
+.small{
+  text-align:center;
+}
+

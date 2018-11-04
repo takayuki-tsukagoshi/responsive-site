@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* Google Fonts用のCSSを読み込み
+------------------------------------------------------------*/
+@import 'https://fonts.googleapis.com/css?family=Abel';
+
+
+@media(max-width:768px){
+    .concept{
+        
+        height:800px;
+       flex-direction: column;
+      }
+     .concept-box{
+         width:250px;
+         height:300px;
+         background-color:snow;
+         flex-direction:row;
+         margin:20px auto;
+        
+     }
+     
+     
+     .title{ 
+         width:100%;
+         height:250px;
+         margin:0 auto;
+         margin-bottom:50px;
+         background-image:url(./images/mdnote3.jpg);
+         background-size:cover;
+          
+     }
+     header h2{
+         font-size:3.0rem;
+         display:block;
+         padding:100px 0 10px 0;
+         color:white;
+         letter-spacing:1.4rem;
+     }
+
+     header p{
+         font-size:1.8rem;
+         color:white;
+     }
+     
+     .enter:hover{
+  width:250px;
+  height:100px;
+  background-color:slategray;
+  margin:0 auto;
+  margin-bottom:100px;
+  display:table;
+  
+  -moz-border-radius:0 40px 0 15px;
+  -webkit-border-radius:0 40px 0 15px;
+  border-radius:0 40px 0 15px;
+  
+}
+
+
+.enter  a:hover{
+  vertical-align: middle;
+  display:table-cell;
+  font-size:2.5rem;
+  letter-spacing:1.4rem;
+  color:white;
+}
+
+
+    }
+    
